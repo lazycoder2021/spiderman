@@ -1,0 +1,447 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+html {
+    scroll-behavior: smooth;
+}
+
+/*  container style starrt  */
+
+.container {
+    width: 100%;
+    height: 170vh;
+    background-color: #b4b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  section1 style start  */
+
+
+.section1 {
+    //border: 1px solid black;
+    width: 92%;
+    height: 84%;
+    background-color: #FFFFFF;
+    background-color: black;
+}
+
+/*  nav style start  */
+
+
+.nav {
+    //border: 1px solid white;
+    width: 85%;
+    height: 70px;
+    margin: 30px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navleft {
+    //border: 1px solid white;
+    width: 68%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navleftbox1 {
+    //border: 1px solid white;
+    width: 12%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navleftbox1logo {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navleftbox1logo img {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    color: red;
+}
+.navleftbox2 {
+    //border: 1px solid white;
+    width: 83%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navleftbox2 ul {
+    display: flex;
+}
+.navleftbox2 ul li {
+    list-style: none;
+}
+.navleftbox2 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    margin: 17px;
+    color: #a2adc2;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.navleftbox2 a:hover {
+    transform: translateX(-15px);
+    color: #B50314;
+}
+.navright {
+    //border: 1px solid white;
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.baricon {
+    color: white;
+}
+/*  nav style end  */
+
+/*  section2 style start  */
+
+.section2 {
+    //border: 1px solid white;
+    width: 85%;
+    height: 500px;
+    margin: 30px auto 0px;
+    display: flex;
+    background-color: black;
+}
+.s2left {
+    //border: 1px solid white;
+    width: 50%;
+    height: 100%;
+}
+.bannertextbox {
+    //border: 1px solid white;
+    width: 97%;
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0px 0px 0px;
+}
+.headerbox {
+    //border: 1px solid white;
+    width: 90%;
+    height: 50%;
+}
+.headerbox h1 {
+    font-size: 130px;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.spanbox {
+    //border: 1px solid white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spanbox h5 {
+    font-size: 17px;
+    color: rgb(190, 190, 190);
+    font-weight: 100;
+    font-family: 'Manrope', sans-serif;
+    text-transform: capitalize;
+}
+.spanbox span {
+    background-color: rgb(243, 220, 9);
+    padding: 2px;
+    border-radius: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 5px;
+    color: white;
+    font-size: 15px;
+}
+.alink1 {
+    text-decoration: none;
+    padding: 17px;
+    width: 170px;
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    transition: all 0.4s;
+    font-size: 17px;
+    background-color: #B50314;
+    color: white;
+    text-transform: capitalize;
+    transition: all 0.4s;
+}
+.alink1:hover {
+    background-color: white;
+    color: #B50314;
+}
+.socialmediabox {
+    //border: 1px solid white;
+    width: 25%;
+    height: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialmediabox span {
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+}
+.medialbox {
+    //border: 1px solid white;
+    width: 90%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box {
+    //border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(177, 176, 176);
+    color: rgb(75, 66, 66);
+}
+.box1 {
+    //border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B50314;
+    color: white;
+}
+
+/*  s2left style end  */
+
+/*  s2right style start  */
+
+
+.s2right {
+    //border: 1px solid white;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.bannerimage {
+    //border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bannerimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(-40deg);
+    position: absolute;
+    right: 80px;
+    top: 2
+    0px;
+}
+.mantextbox {
+    //border: 1px solid white;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 290px;
+    left: 220px;
+}
+.mantextbox h1 {
+    font-size: 130px;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.mantextbox span {
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+    text-transform: capitalize;
+    color: red;
+}
+.whatchlistbox {
+    //border: 1px solid white;
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+.whatchlistbox h2 {
+    font-size: 22px;
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+.playicon {
+    color: white;
+    padding: 16px;
+    border-radius: 50%;
+    background-color: #b4b3b3;
+    position: absolute;
+    left: 120px;
+}
+.lineimage {
+    //border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.lineimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*  s2right style end  */
+
+/*  section2 style end  */
+
+/*  lastbox style start  */
+
+
+.lastbox {
+    width: 100%;
+    height: 270px;
+    background-color: #B50314;
+}
+.overallbox {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto 0px;
+}
+.lbleft {
+    //border: 1px solid white;
+    width: 35%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.lblefttop {
+    //border: 1px solid white;
+    width: 85%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lbleftbottom {
+    //border: 1px solid white;
+    width: 85%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lblefttop h2 {
+    font-size: 15px;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+}
+.lbbleft h3 {
+    font-size: 15px;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;    
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+}
+.lbbright h3 {
+    font-size: 15px;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+}
+.lblefttop span, .lbbleft span {
+    font-weight: 700;
+}
+.lbbright span1 {
+    font-weight: 700;
+}
+.lbbright span {
+    background-color: rgb(243, 220, 9);
+    padding: 2px;
+    border-radius: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 5px;
+}
+.lbright {
+    //border: 1px solid white;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lbrightimage {
+    border: 4px solid white;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.lbrightimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.ticketimage {
+    //border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    bottom: 190px;
+    transform: rotate(-30deg);
+}
+.ticketimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+/*  lastbox style end  */
+
+/*  section1 style end  */
+
+/*  container style end  */
